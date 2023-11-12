@@ -4,7 +4,8 @@ const nextConfig = {
     domains: [
       "files.edgestore.dev"
     ]
-  }
+  },
+  output: 'standalone',
 }
 
 module.exports = nextConfig
